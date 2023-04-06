@@ -17,7 +17,7 @@ export const App: FC = () => {
         </thead>
         <tbody>
           {list.map((value, index) => (
-            <tr key={index}>
+            <tr key={`${index}`}>
               <td>{index + 1 + page * limit}</td>
               <td>{value}</td>
             </tr>

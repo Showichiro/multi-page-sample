@@ -11,11 +11,11 @@ export const usePagination = () => {
   const [page, setPage] = useRecoilState(pageState);
   const prev = useCallback<() => void>(
     () => setPage((old) => Math.max(old - 1, 0)),
-    [setPage]
+    [setPage],
   );
   const next = useCallback<() => void>(
     () => setPage((old) => old + 1),
-    [setPage]
+    [setPage],
   );
   return { page, prev, next };
 };

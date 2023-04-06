@@ -10,5 +10,5 @@ ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
         <App />
       </Suspense>
     </RecoilRoot>
-  </React.StrictMode>
+  </React.StrictMode>,
 );

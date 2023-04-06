@@ -13,5 +13,5 @@ ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
         <a href="../pokeapi/index.html">to pokeapi</a>
       </div>
     </div>
-  </React.StrictMode>
+  </React.StrictMode>,
 );
